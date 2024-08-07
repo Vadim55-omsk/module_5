@@ -12,9 +12,7 @@ class House:
         self.first = first
         self.second = second
 
-    # def __str__(self):
-    #     return self.first
-
+   
     def __del__(self):
         print(f"{self.first} снесен, но он останется в истории")
 
